@@ -3,7 +3,8 @@ node_js:
   - 10
 before_install:
   - npm i
+
 cache: yarn
 
 install:
-  - npm run buidl
+  - npm run build
