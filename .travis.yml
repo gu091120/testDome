@@ -4,6 +4,5 @@ node_js:
 before_install:
   - npm i
 cache: yarn
-
 install:
   - npm run build
